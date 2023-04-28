@@ -1,0 +1,38 @@
+.job-grid{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.job-card{
+    width:100%;
+    padding: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 6px;
+    position: relative;
+}
+
+.job-card .delete-btn{
+    position: absolute;
+    top: -20px;
+    right: -10px;
+    background: red;
+    color: #fff;
+    border-radius: 6px;
+    width: 40px;
+    height: 0;
+    padding: 20px 0;
+    line-height: 0px;
+    text-align: center;
+}
+
+.view-btn{
+    border: none;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}

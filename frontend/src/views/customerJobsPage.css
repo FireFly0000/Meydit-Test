@@ -1,0 +1,58 @@
+.customer-job-page{
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: top;
+    background-color: #9f6df5;
+    flex-direction: column;
+}
+
+.add-jobs-container, .add-job-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 130vh;
+}
+
+.add-jobs-container{
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    max-height: 50vh;
+}
+
+.job-btn{
+    border: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.add-job-form-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.add-job-item{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.job-form-label{
+    text-align: left;
+    padding: 2rem ;
+}
+
+.type-dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.description-box{
+    min-width: 60vh;
+    min-height: 10vh;
+}
+

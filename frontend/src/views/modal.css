@@ -1,0 +1,13 @@
+.modal-btn{
+    border: none;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.message-box{
+    min-width: 30vh;
+    min-height: 10vh;
+}
